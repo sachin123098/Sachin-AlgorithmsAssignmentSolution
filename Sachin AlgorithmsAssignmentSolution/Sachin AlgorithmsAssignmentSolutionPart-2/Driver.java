@@ -20,10 +20,9 @@ public class Driver {
 			System.out.println();
 		}
 		int choice;
-		System.out.println("*********************WELCOME TO STOCKERS FINANCE COMPANY**********************");
+		System.out.println("WELCOME TO STOCKERS FINANCE COMPANY");
 		do {
 			System.out.println();
-			System.out.println("--------------------------------------------------------------------------");
 			System.out.println("Enter the operation that you want to perform -:");
 			System.out.println();
 			System.out.println("Press 1 to display the companies stock price in ascending order");
@@ -32,7 +31,6 @@ public class Driver {
 			System.out.println("Press 4 to display total number of companies for which stock price declined today");
 			System.out.println("Press 5 to search a specific Stock price");
 			System.out.println("Press 0 to exit");
-			System.out.println("-------------------------------------------------------------------------");
 			System.out.println();
 			choice = sc.nextInt();
 			switch (choice) {
